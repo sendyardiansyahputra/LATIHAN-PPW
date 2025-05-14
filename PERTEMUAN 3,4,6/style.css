@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #ffefef;
+}
+
+body{
+    background-color: #fff;
+}
+
+nav{
+    padding: 0 8px;
+    padding: 20px 80px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.logo{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+
+nav a.logo span{
+    color: rgb(108, 3, 228);
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav .links a{
+    margin-right: 14px;
+}
+
+header{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 80px);
+}
+
+header .right{
+    width: 700px;
+}
+
+header .right h1{
+    color: #000;
+    font-size: 50px;
+}
+
+header .right h1 span{
+    color:rgb(108, 3, 228);
+}
+
+header .right p{
+    margin: 40px 0;
+    color: #000;
+}
+
+header .right a{
+    display: flex;
+    align-items: center;
+    background: #000;
+    width: 140px;
+    padding: 8px;
+    border-radius: 69px;
+}
+
+header .right a i{
+    background:#000;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+header .right a span{
+    color: #fff;
+    margin-right: 10px;
+}
+
+header img{
+    width: 1000px;
+}
